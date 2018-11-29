@@ -247,6 +247,7 @@ if (process.env.NODE_ENV !== "production") {
     FieldTemplate: PropTypes.func,
     ErrorList: PropTypes.func,
     onChange: PropTypes.func,
+    onBlur: PropTypes.func,
     onError: PropTypes.func,
     showErrorList: PropTypes.bool,
     onSubmit: PropTypes.func,
